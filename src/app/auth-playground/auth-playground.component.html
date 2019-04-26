@@ -1,0 +1,17 @@
+
+<div class="bg">
+	<h2>
+	  auth-playground works!
+	</h2>
+
+	<button (click)="signIn()">update login time</button>
+	 
+	 
+	<div>auth username: {{ (auth$ | async).username }}</div> 
+	<div>auth logintime: {{ (auth$ | async).logintime }}</div> 
+	
+
+	
+</div>
+
+ 
